@@ -207,6 +207,6 @@ body {
   background-color: var(--active-color);
 }
 
-.filter-link {
-  color: inherit;
+.filter-text {
+  color: var(--text-color);
 }
