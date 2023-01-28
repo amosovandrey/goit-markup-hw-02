@@ -208,5 +208,5 @@ body {
 }
 
 .filter-link {
-  color: inherit;
+  color: var(--text-color);
 }
