@@ -10,6 +10,7 @@
   --modal-overlay-color: rgba(46, 47, 66, 0.4);
   --hero-background-color: rgba(46, 47, 66, 0.7);
   --title-white-color: #ffffff;
+  --section-background-color: #e5e5e5;
 }
 /*  main-text-color: --text-color: #434455;
     headline-color: --dark-color: #2e2f42;
@@ -26,6 +27,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--text-color);
+  background-color: var(--title-white-color);
 }
 
 .link {
@@ -56,7 +58,7 @@ body {
 /* ------------- NAV ------------- */
 
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -71,8 +73,6 @@ body {
 }
 .header-list-link {
   font-weight: 500;
-
-  letter-spacing: inherit;
 
   color: var(--dark-color);
 }
@@ -128,7 +128,9 @@ body {
 }
 
 /* ------------- FEATURES ------------- */
-
+/* .features {
+  background-color: var(--section-background-color);
+} */
 .list-title {
   font-weight: 500;
   font-size: 20px;
@@ -138,7 +140,9 @@ body {
 }
 
 /* ------------- DESCRIPTION ------------- */
-
+/* .description {
+  background-color: var(--section-background-color);
+} */
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -148,7 +152,9 @@ body {
 }
 
 /* ------------- TEAM ------------- */
-
+.team {
+  background-color: var(--light-color);
+}
 /* ------------- FOOTER ------------- */
 
 .footer {
@@ -158,7 +164,7 @@ body {
 /* ------------- LOGO FOOTER ------------- */
 
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -199,4 +205,8 @@ body {
 .filter-btn:focus {
   color: var(--title-white-color);
   background-color: var(--active-color);
+}
+
+.filter-link {
+  color: inherit;
 }
